@@ -1,0 +1,6 @@
+.banner_section {
+    background: url(../assets/banner_img/bunner_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
