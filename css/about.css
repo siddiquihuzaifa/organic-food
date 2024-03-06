@@ -3,4 +3,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    min-height: auto;
 }

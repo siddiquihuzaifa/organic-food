@@ -582,6 +582,15 @@ section {
 }
 
 
+/* ==============================
+============ About Section=======
+===================== */
+
+.about .about-detail p {
+    color: #061738;
+}
+
+
 /* footer end */
 
 @media (max-width:1170px) {
