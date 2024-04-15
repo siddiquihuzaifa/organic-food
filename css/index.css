@@ -594,25 +594,30 @@ section {
 /* footer end */
 
 @media (max-width:1170px) {
+
     /* general science */
     .section-subtitle {
         max-width: 60%
     }
+
     /* nav bar */
     .header .navbar {
         background-size: cover;
-        padding: 2rem;
+        padding: 1rem;
     }
+
     .header .navbar-nav {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
-    .header .navbar-nav .nav-link {
+
+    .header .navbar-nav .nav-link { 
         padding: 1rem 1rem;
         margin-bottom: 1rem;
     }
 }
 
 @media (max-width:991px) {
+
     .product .banner_section,
     .about .banner_section,
     .gallery .banner_section,
@@ -620,14 +625,17 @@ section {
         padding-top: 12.5rem;
         padding-bottom: 3rem;
     }
+
     /* nav bar */
     .header .navbar {
         background-size: cover;
         padding: 2rem;
     }
+
     .header .navbar-nav {
         margin-top: 2rem;
     }
+
     .header .navbar-nav .nav-link {
         padding: 1rem 1rem;
         margin-bottom: 1rem;
@@ -635,25 +643,94 @@ section {
 }
 
 @media (max-width:767px) {
+
     body,
     html {
         font-size: 8px;
     }
+
     .section-subtitle {
         max-width: 80%;
     }
+
     /* banner_section */
     .banner_section {
         min-height: 70vh;
     }
+
     .banner_section .carousel-item {
         height: 70vh;
     }
 }
 
 @media (max-width:590px) {
+
     body,
     html {
         font-size: 7px;
     }
+}
+
+/* ==================================
+===========product csss */
+.product .product-details p {
+    margin-bottom: 1.5rem;
+}
+
+/* ===================================
+========= contact css */
+.contact .contact-form {
+    background-color: #e2f6de;
+    padding: 5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0, 0, 0 / 4%);
+}
+
+.contact .contact-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contact .contact-form .form-control::placeholder {
+    color: #061738;
+}
+
+.contact .contact-form .form-control {
+    padding: 1rem 1rem;
+    border-radius: 0rem;
+    border: 0.1rem solid #60cd12;
+    color: #061738;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.contact .contact-form textarea {
+    min-height: 10rem;
+}
+
+.contact .contact-form .info-box li {
+    position: relative;
+    padding-left: 7rem;
+    padding-bottom: 3.9rem;
+    margin-bottom: 2.9rem;
+}
+
+.contact .contact-form .info-box li i {
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 4.6rem;
+    line-height: 4.5rem;
+    color: #061738;
+}
+.contact .contact-form .info-box li p{
+    color: #061738;
+}
+.contact .contact-form .info-box li a{
+    color: #03262c;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
